@@ -1,37 +1,10 @@
-<!Doctype html>
-<html>
-<head>
-<title>
-SRC-MiHRK
-</title>
-<style>
-.TR{
-text-align: center;
-color:yellow;
-
-}
-.TechRobot{
-text-align: center;
-}
-
-.MiHRK-Pera{
-background: linear-gradient(
-    50deg,
-    rgba(255, 255, 255, 0.4) 12%,
-    rgba(255, 255, 255, 0.1) 77%
-  );
-  background-blend-mode: ;
-  box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.28);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-}
-</style>
-</head>
-<body>
+<div style="text-align:center">
 <h1 class="TR">Virus Inject In Any SRC</h1>
+<br> <hr>
 <h4 class="TechRobot">
 # Deploy RDP / Cloud VPS 
 </h4>
+    <p>Games SRC injection is Hacking injection Source Code.... use this code to hack any Victim for using Mod apk , Injector , GG Many More.... about this source- Working on TCP Server in source and Create Your Project in RDP/ Cloud VPS.....Project Uploaded By MiHRK</p>
 <pre class="MiHRK-Pera">
 # Support Android 13
 
@@ -41,5 +14,4 @@ This app is a Mihrk-Hack for rooted and non rooted Android devices that logs vie
 
 To install and run: Download the source and open the SRC-MiHRK folder as a project in Android Studio. Then run the app on an emulator or a connected device...
 </pre>
-</body>
-</html>
+</div>
